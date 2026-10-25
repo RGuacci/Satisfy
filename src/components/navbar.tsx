@@ -22,7 +22,7 @@ export default function Navbar() {
   const handleLogout = () => {
     mutate(undefined, {
       onSuccess: () => {
-        navigate("/login");
+        navigate("/");
       },
     });
   };
