@@ -25,7 +25,7 @@ export default function Order() {
 
   return (
     <section className="mx-auto max-w-5xl p-6">
-      <Link to="/orders" className="link link-hover">
+      <Link to="/profile/orders" className="link link-hover">
         ← Torna ai miei ordini
       </Link>
 
