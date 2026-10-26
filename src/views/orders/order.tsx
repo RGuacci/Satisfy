@@ -19,10 +19,6 @@ export default function Order() {
         <p role="alert" className="text-error">
           Impossibile recuperare questo ordine.
         </p>
-
-        <Link to="/orders" className="btn btn-ghost mt-4">
-          Torna ai miei ordini
-        </Link>
       </section>
     );
   }
